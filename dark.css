@@ -1,0 +1,219 @@
+body{
+    background-color: #1e1e1e;
+}
+
+header{
+    background: linear-gradient(to bottom, #020202 0%, #0a9548 50%, #16db65 100%);
+    height: 150px;
+    align-items: center;
+    align-content: space-around;
+    h3{
+        text-align: center; color:#04471c;
+    }
+}
+h1{
+    text-align: center;
+    color: #16db65;
+}
+header h1, header h3 {
+  margin: 0.5rem 0;
+}
+main{
+    border: solid #1e1e1e  ;
+    background-color: #333333;
+    border-width: 5px 40px 5px 40px;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    h3, h2{
+        color: #f0f0f0;
+    }
+    p{
+        color: #aaaaaa ;
+    }
+    
+}
+button {
+  background-color: #16db65;
+  color: rgb(47, 66, 53);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0a9548;
+}
+a{
+    color: #16db65 ;
+}
+pre{
+    color: #aaaaaa;
+}
+p{
+    color: #aaaaaa;
+}
+footer{
+    background-color: #1e1e1e ;
+    background-image: url('dark-footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    align-content: end;
+    height: 250px;
+    p{
+        color: #b9b7b9;
+    }
+    a{
+        color: #16db65;
+    }
+    padding-left: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    border: solid #1e1e1e  ;
+    background-color: #333333;
+    padding: 5px;
+}
+
+
+
+
+/* for features page  */
+/* Basic Styles for the Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Table Data */
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #1e1e1e;
+    background-color: #868686; /* Very light lavender */
+    font-size: 0.9rem;
+    color: rgb(12, 12, 12); /* Deep lavender for readability */
+}
+
+
+
+/* for home page */
+#theme-selector{
+    position: absolute;
+    top: 10px;
+    right:10px;
+    background-color: rgb(172, 255, 200);
+    padding: 3px 3px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+#themeDropdown {
+    padding: 2px 3px;
+    border-radius: 5px;
+    border: 1px solid #8b8c8b;
+}
+
+
+/* for task page  */
+section {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #2a2a2a ; /* light lavender background */
+}
+#add-task{
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1.5px solid #444444;
+  align-items: center;
+}
+#add-task input,
+#add-task select,
+#add-task button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #444444;
+}
+#add-task input, #add-task select{
+    background-color: #c3c3c3;
+    color: #000000
+}
+#add-button {
+  background-color: #16db65;
+  color: rgb(47, 66, 53);
+  border: none;
+}
+#add-button:hover {
+  background-color: #0a9548;
+}
+#filters button,
+#filters select {
+  margin: 5px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 1px solid #444444;
+  background-color: #16db65;
+  color: black;
+}
+#filters button:hover {
+  background-color: #0a9548;
+}
+#task-list{
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #444444;
+  align-items: center;
+}
+.task-card {
+  background-color: #3e3e3e;
+  border: 2px solid #444444;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #bbbbbb;
+}
+.priority-high {
+  color: white;
+  background-color: #e11d48;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.priority-medium {
+  background-color: #eab308;
+  color: black;
+  padding:2px 6px;
+  border-radius: 5px;
+}
+.priority-low {
+  background-color: #10b981;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: grab;
+}
+
+ul {
+    list-style-type: none;
+    color: #aaaaaa;
+}

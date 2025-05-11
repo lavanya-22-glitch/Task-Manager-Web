@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talika-Tasks</title>
+    <link id="themeStylesheet" rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <!-- <pre><img src="/logo.png" alt="logo" height="100"> -->
+        <h1>TALIKA</h1>
+        <h3>"Organize Your Day, One Task at a Time"</h3>
+    </header>
+    <hr>
+    <nav>
+        <a href="/home.html"><img src="/logo.png" alt="logo" height="100"></a>
+        <a href="/home.html">Home</a>
+        <a href="/tasks.html">Tasks</a>
+        <a href="/features.html">Features</a>
+        <a href="/about.html">About</a>
+    </nav>
+    <hr>
+
+    <main>
+        <!-- ADD TASK SECTION -->
+        <section id="add-task">
+        <h2>Add a New Task</h2>
+        <input type="text" placeholder="Task Name" id="task-name">
+        <input type="date" id="due-date">
+        <select id="priority">
+            <option value="high">High Priority</option>
+            <option value="medium">Medium Priority</option>
+            <option value="low">Low Priority</option>
+        </select>
+        <button type="button" id="add-button">Add Task</button>
+        </section>
+        <br>
+
+        <!-- filters -->
+         <section id="filters">
+            <h3>Sort items:</h3>
+            <button id="filter-all">All</button>
+            <button id="filter-completed">Completed</button>
+            <button id="filter-pending">Pending</button>
+
+            
+            <select id="sort-tasks">
+                <option value="none">Sort By:</option>
+                <option value="date">Due Date</option>
+                <option value="priority">Priority</option>
+            </select>
+         </section>
+         <br>
+
+         <!-- task list -->
+        <section id="task-list">
+            <h2>Your Tasks</h2>
+
+            <ul class="task-items" id="taskItems">
+                <li>
+                    <!-- <div class="task-card">
+                        <input type="Checkbox">
+                        <strong>Finish Assignment</strong>
+                        <br>
+                        <span>Due: May 10</span>
+                        <span class="priority-high">High</span>
+                        <button class="delete-btn">🗑️</button>
+                    </div> -->
+                </li>
+            </ul>
+        </section>
+
+        <!-- <br>
+        <section id="calendar-view">
+            <h2>Calendar</h2>
+            <div class="calendar-header">
+                <button>&lt;</button>
+            <span>May 2025</span>
+            <button>&gt;</button>
+            </div>
+            <div class="calendar-grid">
+                <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+                
+                /*Days (for May 2025, starts on Thursday)*/
+
+                <div></div><div></div><div></div><div></div>
+                <div>1</div><div>2</div><div>3</div>
+                <div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div>
+                <div>11</div><div>12</div><div>13</div><div>14</div><div>15</div><div>16</div><div>17</div>
+                <div>18</div><div>19</div><div>20</div><div>21</div><div>22</div><div>23</div><div>24</div>
+                <div>25</div><div>26</div><div>27</div><div>28</div><div>29</div><div>30</div><div>31</div>
+                </div>
+            </div> -->
+        </section>
+
+    </main>
+
+    <hr>
+    <footer id="foot">
+        <p>© 2025 Lavanya Bhadani | Task Manager App</p>
+        <p><a href="https://www.instagram.com/lavi.b22/" target="_main" >Instagram</a>: @lavi.b22</p>
+        <p><a href="https://github.com/lavanya-22-glitch" target="_main">GitHub</a>: @lavanya-22-glitch</p>
+        <p><a href="https://www.linkedin.com/in/lavanya-bhadani-1834b1313/"  target="_main">LinkedIn</a>: Lavanya Bhadani</p>
+        <p>[Portfolio] </p>
+    </footer>
+
+    <script src="taskScript2.js"></script>
+    <script src="theme.js"></script>
+</body>
+
+</html>

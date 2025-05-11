@@ -1,0 +1,181 @@
+/* === HEADER === */
+header {
+    background: linear-gradient(to top, #ffe6eb, #ffb7c5);
+    height: 150px;
+    align-items: center;
+    align-content: space-around;
+}
+h1 {
+    text-align: center;
+    color: #c41e3a;
+}
+header h1, header h3 {
+    margin: 0.5rem 0;
+}
+header h3 {
+    text-align: center;
+    color: #6B7280;
+}
+
+/* === MAIN === */
+main {
+    border: solid #ffe6eb;
+    border-width: 5px 40px;
+    border-radius: 2px;
+    padding: 10px 10px 10px 20px;
+}
+button {
+    background-color: #ffb7c5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e57a94;
+}
+a, p {
+    color: black;
+}
+
+/* === FOOTER === */
+footer {
+    background-color: #e57a94;
+    background-image: url('cherry-footer.jpg'); /* optional: update if needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.75;
+    align-content: end;
+    height: 250px;
+    padding-left: 20px;
+}
+footer p, footer a {
+    color: black;
+}
+
+/* === NAVIGATION === */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+/* === FEATURE PAGE TABLE === */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #f7f6f8;
+    background-color: #fff0f4;
+    font-size: 0.9rem;
+    color: black;
+}
+
+/* === THEME SELECTOR === */
+#theme-selector {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: whitesmoke;
+    padding: 3px;
+    border-radius: 5px;
+    z-index: 100;
+}
+#themeDropdown {
+    padding: 2px 3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* === TASK PAGE === */
+section {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff8fa;
+}
+#add-task {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ffb7c5;
+}
+#add-task input,
+#add-task select,
+#add-task button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ffb7c5;
+}
+#add-button {
+    background-color: #ffb7c5;
+    color: white;
+    border: none;
+}
+#filters button,
+#filters select {
+    margin: 5px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ffb7c5;
+    background-color: #ffe6eb;
+    color: black;
+}
+#task-list {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ffb7c5;
+}
+.task-card {
+    background-color: white;
+    border: 2px solid #ffb7c5;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.priority-high {
+    color: white;
+    background-color: #e11d48;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.priority-medium {
+    background-color: #eab308;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.priority-low {
+    background-color: #10b981;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.delete-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: grab;
+}
+ul {
+    list-style-type: none;
+}
